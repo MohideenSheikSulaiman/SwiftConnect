@@ -5,7 +5,7 @@
 - [x] Out of the box support for parsing (Codable) 
 - [x] Support for upload tasks
 
-But that's not really where Connect shines, at its core it's very simple but the exposed APIs are very powerful what differs Connect from any other library
+But that's not really where SwiftConnect shines, at its core it's very simple but the exposed APIs are very powerful what differs SwiftConnect from any other library
 
 - [x] Path Parameters support
 - [x] Powerful chaining based on Futures / Promises
