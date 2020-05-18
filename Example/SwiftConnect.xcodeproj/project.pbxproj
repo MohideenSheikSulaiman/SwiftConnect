@@ -23,7 +23,7 @@
 		CB49DF2F2472F2E900DFFC2D /* Transformers.md in Resources */ = {isa = PBXBuildFile; fileRef = CB49DF2E2472F2E900DFFC2D /* Transformers.md */; };
 		CB49DF342472F31600DFFC2D /* Usage.md in Resources */ = {isa = PBXBuildFile; fileRef = CB49DF312472F31600DFFC2D /* Usage.md */; };
 		CB49DF352472F31600DFFC2D /* Why use SwiftConnect.md in Resources */ = {isa = PBXBuildFile; fileRef = CB49DF322472F31600DFFC2D /* Why use SwiftConnect.md */; };
-		CB49DF372472FDB000DFFC2D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB49DF362472FDB000DFFC2D /* README.md */; };
+		CB49DF392472FEE000DFFC2D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB49DF382472FEE000DFFC2D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		CB49DF2E2472F2E900DFFC2D /* Transformers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Transformers.md; path = ../Transformers.md; sourceTree = "<group>"; };
 		CB49DF312472F31600DFFC2D /* Usage.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Usage.md; path = ../Usage.md; sourceTree = "<group>"; };
 		CB49DF322472F31600DFFC2D /* Why use SwiftConnect.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "Why use SwiftConnect.md"; path = "../Why use SwiftConnect.md"; sourceTree = "<group>"; };
-		CB49DF362472FDB000DFFC2D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB49DF382472FEE000DFFC2D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA6B794CDCED8239863A7781 /* Pods_SwiftConnect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftConnect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1E34858DBCB903576CB3EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E7A1A33C41D54C01104D6524 /* Pods-SwiftConnect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConnect_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftConnect_Example/Pods-SwiftConnect_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 			children = (
 				F77DA9499C01F2250AE31D4C /* SwiftConnect.podspec */,
 				CB3D04192472DCBA0058F72A /* Debugging.md */,
-				CB49DF362472FDB000DFFC2D /* README.md */,
+				CB49DF382472FEE000DFFC2D /* README.md */,
 				CB49DF312472F31600DFFC2D /* Usage.md */,
 				CB49DF322472F31600DFFC2D /* Why use SwiftConnect.md */,
 				CB49DF2E2472F2E900DFFC2D /* Transformers.md */,
@@ -276,7 +276,7 @@
 				CB49DF342472F31600DFFC2D /* Usage.md in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				CB3D041E2472DCBA0058F72A /* Debugging.md in Resources */,
-				CB49DF372472FDB000DFFC2D /* README.md in Resources */,
+				CB49DF392472FEE000DFFC2D /* README.md in Resources */,
 				CB49DF2F2472F2E900DFFC2D /* Transformers.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

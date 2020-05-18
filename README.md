@@ -17,7 +17,7 @@ SwiftConnect is a lightweight network abstraction layer, built on top of Alamofi
     - [Void Transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Void-Transformer)
     - [Creating your own transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Creating-your-own-transformer)
 - [Usage](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md)
-    - [How to use SwiftConnect?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#How-to-use-Connect)
+    - [How to use SwiftConnect?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#How-to-use-SwiftConnect)
     - [Connect](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#Connect)
     - [Connect Middleware](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#ConnectMiddleware)
     - [Error Handler](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#ErrorHandler)
