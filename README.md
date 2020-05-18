@@ -10,24 +10,24 @@ SwiftConnect is a lightweight network abstraction layer, built on top of Alamofi
 
 ## Table of contents
 
-- [Why should I use SwiftConnect and not any other abstraction layer?](https://github.com/tareksabry1337/Connect/blob/master/Why%20use%20SwiftConnect.md)
-- [Transformers](https://github.com/tareksabry1337/Connect/blob/master/Transformers.md)
-    - [Codable Transformer](https://github.com/tareksabry1337/Connect/blob/master/Transformers.md#Codable-Transformer)
-    - [Dictionary Transformer](https://github.com/tareksabry1337/Connect/blob/master/Transformers.md#Dictionary-Transformer)
-    - [Void Transformer](https://github.com/tareksabry1337/Connect/blob/master/Transformers.md#Void-Transformer)
-    - [Creating your own transformer](https://github.com/tareksabry1337/Connect/blob/master/Transformers.md#Creating-your-own-transformer)
-- [Usage](https://github.com/tareksabry1337/Connect/blob/master/Usage.md)
-    - [How to use connect?](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#How-to-use-Connect)
-    - [Connect](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#Connect)
-    - [Connect Middleware](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#ConnectMiddleware)
-    - [Error Handler](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#ErrorHandler)
-    - [Connector](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#Connector)
-    - [What is Parameter?](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#What-is-Parameter)
-    - [What is CompositeParameters?](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#What-is-CompositeParameters)
-    - [AuthorizedConnector](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#AuthorizedConnector)
-    - [File](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#File)
-    - [Using Connect](https://github.com/tareksabry1337/Connect/blob/master/Usage.md#Using-Connect)
-- [Debugging](https://github.com/tareksabry1337/Connect/blob/master/Debugging.md)
+- [Why should I use SwiftConnect and not any other abstractio layer?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Why%20use%20SwiftConnect.md)
+- [Transformers](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md)
+    - [Codable Transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Codable-Transformer)
+    - [Dictionary Transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Dictionary-Transformer)
+    - [Void Transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Void-Transformer)
+    - [Creating your own transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Creating-your-own-transformer)
+- [Usage](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md)
+    - [How to use connect?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#How-to-use-Connect)
+    - [Connect](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#Connect)
+    - [Connect Middleware](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#ConnectMiddleware)
+    - [Error Handler](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#ErrorHandler)
+    - [Connector](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#Connector)
+    - [What is Parameter?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#What-is-Parameter)
+    - [What is CompositeParameters?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#What-is-CompositeParameters)
+    - [AuthorizedConnector](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#AuthorizedConnector)
+    - [File](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#File)
+    - [Using Connect](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#Using-Connect)
+- [Debugging](https://github.com/tareksabry1337/SwiftConnect/blob/master/Debugging.md)
 
 ## Requirements
 
@@ -50,8 +50,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Support
 
-Please, don't hesitate to [file an
-issue](https://github.com/tareksabry1337/Connect/issues/new) if you have questions.
+Please, don't hesitate to [file an issue](https://github.com/tareksabry1337/SwiftConnect/issues/new) if you have questions.
 
 ## What's Next ?
 - [ ] Unit Testing
