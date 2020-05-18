@@ -21,4 +21,4 @@ If we use the above definition, Futures and Promises become two sides of the sam
 
 First thing first Connect returns plain "Data" from the request it, unlike any other networking abstraction layer Connect never assumes the data type you want and it leaves the decision up to you whether you want it as plain Data / Convert it to Codable model / Convert it to a dictionary or whatever you want to do with this data.
 
-This is what I call [**Transformers**](https://github.com/tareksabry1337/Connect/blob/master/Transformers.md)
+This is what I call [**Transformers**](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md)
