@@ -17,8 +17,8 @@ But that's not really where Connect shines, at its core it's very simple but the
 
 If we use the above definition, Futures and Promises become two sides of the same coin. A promise gets constructed, then returned as a future, where it can be used to extract information at a later point.
 
-#### How does Connect benefit from this concept ?
+#### How does SwiftConnect benefit from this concept ?
 
-First thing first Connect returns plain "Data" from the request it, unlike any other networking abstraction layer Connect never assumes the data type you want and it leaves the decision up to you whether you want it as plain Data / Convert it to Codable model / Convert it to a dictionary or whatever you want to do with this data.
+First thing first SwiftConnect returns plain "Data" from the request it, unlike any other networking abstraction layer SwiftConnect never assumes the data type you want and it leaves the decision up to you whether you want it as plain Data / Convert it to Codable model / Convert it to a dictionary or whatever you want to do with this data.
 
 This is what I call [**Transformers**](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md)
