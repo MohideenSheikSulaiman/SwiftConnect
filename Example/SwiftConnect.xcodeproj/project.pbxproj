@@ -14,6 +14,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		642FAA48CEF4B84E5D5D4E71 /* Pods_SwiftConnect_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6B794CDCED8239863A7781 /* Pods_SwiftConnect_Tests.framework */; };
 		A423433000A4F01C8A517B95 /* Pods_SwiftConnect_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6CEF7080604B51A73E54A3 /* Pods_SwiftConnect_Example.framework */; };
+		CB05B9482472DECD00223CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05B9472472DECC00223CC9 /* ViewController.swift */; };
 		CB3D041E2472DCBA0058F72A /* Debugging.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D04192472DCBA0058F72A /* Debugging.md */; };
 		CB3D041F2472DCBA0058F72A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D041A2472DCBA0058F72A /* README.md */; };
 		CB3D04202472DCBA0058F72A /* Transformers.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D041B2472DCBA0058F72A /* Transformers.md */; };
@@ -22,7 +23,6 @@
 		CB3D04582472DD650058F72A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04532472DD650058F72A /* Todo.swift */; };
 		CB3D04592472DD650058F72A /* TodoConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04542472DD650058F72A /* TodoConnector.swift */; };
 		CB3D045A2472DD650058F72A /* StringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04552472DD650058F72A /* StringTransformer.swift */; };
-		CB3D045B2472DD650058F72A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04562472DD650058F72A /* ViewController.swift */; };
 		CB3D045C2472DD650058F72A /* AdvancedTodoConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04572472DD650058F72A /* AdvancedTodoConnector.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +51,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C6CEF7080604B51A73E54A3 /* Pods_SwiftConnect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftConnect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB05B9472472DECC00223CC9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB3D04192472DCBA0058F72A /* Debugging.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Debugging.md; sourceTree = "<group>"; };
 		CB3D041A2472DCBA0058F72A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB3D041B2472DCBA0058F72A /* Transformers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Transformers.md; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		CB3D04532472DD650058F72A /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		CB3D04542472DD650058F72A /* TodoConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoConnector.swift; sourceTree = "<group>"; };
 		CB3D04552472DD650058F72A /* StringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTransformer.swift; sourceTree = "<group>"; };
-		CB3D04562472DD650058F72A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Old/SwiftConnect/Example/SwiftConnect/ViewController.swift; sourceTree = "<group>"; };
 		CB3D04572472DD650058F72A /* AdvancedTodoConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedTodoConnector.swift; sourceTree = "<group>"; };
 		DA6B794CDCED8239863A7781 /* Pods_SwiftConnect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftConnect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1E34858DBCB903576CB3EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 				CB3D04552472DD650058F72A /* StringTransformer.swift */,
 				CB3D04532472DD650058F72A /* Todo.swift */,
 				CB3D04542472DD650058F72A /* TodoConnector.swift */,
-				CB3D04562472DD650058F72A /* ViewController.swift */,
+				CB05B9472472DECC00223CC9 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -364,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3D045B2472DD650058F72A /* ViewController.swift in Sources */,
+				CB05B9482472DECD00223CC9 /* ViewController.swift in Sources */,
 				CB3D045C2472DD650058F72A /* AdvancedTodoConnector.swift in Sources */,
 				CB3D04582472DD650058F72A /* Todo.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
