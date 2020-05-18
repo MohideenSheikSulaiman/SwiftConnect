@@ -6,7 +6,7 @@ To start using SwiftConnect you must be aware of the following key concepts.
 
 #### Connect
 
-Is the basic class that contains three functions (request / upload / cancelAllRequests) it can be instantiated directly using Connect() or you can customize its parameters, Its constructor contains two parameters (ConnectMiddleware / ErrorHandler) which will be discussed shortly. Or you can just use Connect.default to get the default implementation of Connect.
+Is the basic class that contains three functions (request / upload / cancelAllRequests) it can be instantiated directly using Connect() or you can customize its parameters, Its constructor contains two parameters (ConnectMiddleware / ErrorHandler) which will be discussed shortly. Or you can just use Connect.default to get the default implementation of SwiftConnect.
 
 #### ConnectMiddleware
 
@@ -18,7 +18,7 @@ public protocol ConnectMiddlewareProtocol: RequestAdapter, RequestRetrier {
 ```
 Any class that implements ConnectMiddlewareProtocol must have the session variable and adapt the two protocols RequestAdapter / RequestRetier from Alamofire.
 
-The core of this class is mainly used for adapting requests / handling unauthorized states (currently Connect does not support that but it will support it in the near future) so if you want to roll your own implementation you are free to do so.
+The core of this class is mainly used for adapting requests / handling unauthorized states (currently SwiftConnect does not support that but it will support it in the near future) so if you want to roll your own implementation you are free to do so.
 
 #### ErrorHandler
 
@@ -29,9 +29,9 @@ public protocol ErrorHandlerProtocol {
 }
 ```
 
-Error handling can be really tricky, it has no unified standards across all the backend developers, some people return an array, some people return a dictionary, some people use "message" other use "msg" and so on, the possibilities are unlimited so when I initially decided to approach this I thought to myself "well, let's leave that to the developer" which leaves us to an important question, How does Connect handle errors ?
+Error handling can be really tricky, it has no unified standards across all the backend developers, some people return an array, some people return a dictionary, some people use "message" other use "msg" and so on, the possibilities are unlimited so when I initially decided to approach this I thought to myself "well, let's leave that to the developer" which leaves us to an important question, How does SwiftConnect handle errors ?
 
-First and foremost Connect assumes a request is successful if it's status code is within the acceptable range (200..<300) but in case it fails and the error code is something that's unacceptable that's where the ErrorHandler kicks in and calls "handle(response: [String: Any])" and its your own responsibility to decide the error that will be thrown. You may even return nil in case you assume that the request is successful even when it failed (for some reason ?). 
+First and foremost SwiftConnect assumes a request is successful if it's status code is within the acceptable range (200..<300) but in case it fails and the error code is something that's unacceptable that's where the ErrorHandler kicks in and calls "handle(response: [String: Any])" and its your own responsibility to decide the error that will be thrown. You may even return nil in case you assume that the request is successful even when it failed (for some reason ?). 
 
 If you don't provide ErrorHandler and just use the default implementation it's going to lookup the following keys (msg, messge, error, err) before giving up and throwing a generic error.
 
@@ -89,7 +89,7 @@ enum TodoConnector: Connector {
 
 So all of these requirements are pretty self explantory except for one specific requirement (parameters).
 
-Connect introduces two new types of parameters (Parameter / CompositeParameters)
+SwiftConnect introduces two new types of parameters (Parameter / CompositeParameters)
 
 ### What is Parameter?
 
@@ -105,7 +105,7 @@ public enum Parameter: ParametersRepresentable {
 
 Assuming your request requires only one parameter you may return one of these for the parameters property.
 
-The query type will append the parameter to url query components whereas the path parameter will look for the specified key in the URL and replace it with the specified value, I.E if you pass Parameter.path(key: "id", value: "123") for the parameters (as in the example above) Connect will look for {id} in the Endpoint and replace it with 123
+The query type will append the parameter to url query components whereas the path parameter will look for the specified key in the URL and replace it with the specified value, I.E if you pass Parameter.path(key: "id", value: "123") for the parameters (as in the example above) SwiftConnect will look for {id} in the Endpoint and replace it with 123
 
 **You must make sure you match the path parameters key with their respective values in the URL**
 
@@ -172,7 +172,7 @@ Calling this Connector will result into this call
 =======================================
 $ curl -v \
     -X PUT \
-    -H "User-Agent: Connect Example/1.0 (com.connect.example; build:1; iOS 13.3.0) Alamofire/5.1.0" \
+    -H "User-Agent: SwiftConnect Example/1.0 (com.swiftconnect.example; build:1; iOS 13.3.0) Alamofire/5.1.0" \
     -H "Accept-Language: en-US;q=1.0, ar-US;q=0.9, en;q=0.8" \
     -H "Accept-Encoding: br;q=1.0, gzip;q=0.9, deflate;q=0.8" \
     -H "Content-Type: application/json" \
@@ -198,7 +198,7 @@ public enum AuthorizationToken {
     case bearer(token: String), basic(username: String, password: String), custom(token: String)
 }
 ```
-So in nutshell, Connect supports Bearer, Basic, Custom authentication.
+So in nutshell, SwiftConnect supports Bearer, Basic, Custom authentication.
 
 #### File (for uploading tasks)
 

@@ -10,7 +10,7 @@ First of all any request that goes out of your device will be logged to the cons
 $ curl -v \
     -X GET \
     -H "Accept-Encoding: br;q=1.0, gzip;q=0.9, deflate;q=0.8" \
-    -H "User-Agent: Connect Example/1.0 (com.swiftconnect.example; build:1; iOS 13.3.0) Alamofire/5.1.0" \
+    -H "User-Agent: SwiftConnect Example/1.0 (com.swiftconnect.example; build:1; iOS 13.3.0) Alamofire/5.1.0" \
     -H "Accept-Language: en-US;q=1.0, ar-US;q=0.9, en;q=0.8" \
     "https://jsonplaceholder.typicode.com/todos/123"
 =======================================
@@ -37,7 +37,7 @@ $ curl -v \
     -b "__cfduid=d28ba4711e524514d5211ca1973b297f51589810370" \
     -H "Accept-Encoding: br;q=1.0, gzip;q=0.9, deflate;q=0.8" \
     -H "Accept-Language: en-US;q=1.0, ar-US;q=0.9, en;q=0.8" \
-    -H "User-Agent: Connect Example/1.0 (com.swiftconnect.example; build:1; iOS 13.3.0) Alamofire/5.1.0" \
+    -H "User-Agent: SwiftConnect Example/1.0 (com.swiftconnect.example; build:1; iOS 13.3.0) Alamofire/5.1.0" \
     "https://jsonplaceholder.typicode.com/todos/123"
 =======================================
 {
