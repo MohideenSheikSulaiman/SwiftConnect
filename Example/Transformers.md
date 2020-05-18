@@ -74,7 +74,7 @@ With void transformer you may want to ignore the content of the response altoget
 
 #### Creating your own transformer
 
-Absolutely ! That's the core power of SwiftConnect the ability to create your own transformers which makes it very extendible.
+The core power of SwiftConnect is the ability to create your own transformers which makes it very extendible.
 Let's take a look on how can we create a String Transformer that transforms data to String.
 ```swift
 extension Future where Value == Data {
