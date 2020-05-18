@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.1.0)
+  - SwiftConnect (1.0.0):
+    - Alamofire (= 5.1.0)
+
+DEPENDENCIES:
+  - SwiftConnect (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  SwiftConnect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  SwiftConnect: 1fd8af1dc917edf9395f2829f3b3d2c93ca39ecb
+
+PODFILE CHECKSUM: 317d12b363d1624cf79725c1b0a6fc8bcbaee230
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module SwiftConnect {
+  umbrella header "SwiftConnect-umbrella.h"
+
+  export *
+  module * { export * }
+}

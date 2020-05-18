@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		642FAA48CEF4B84E5D5D4E71 /* Pods_SwiftConnect_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6B794CDCED8239863A7781 /* Pods_SwiftConnect_Tests.framework */; };
 		A423433000A4F01C8A517B95 /* Pods_SwiftConnect_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6CEF7080604B51A73E54A3 /* Pods_SwiftConnect_Example.framework */; };
+		CB3D041E2472DCBA0058F72A /* Debugging.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D04192472DCBA0058F72A /* Debugging.md */; };
+		CB3D041F2472DCBA0058F72A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D041A2472DCBA0058F72A /* README.md */; };
+		CB3D04202472DCBA0058F72A /* Transformers.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D041B2472DCBA0058F72A /* Transformers.md */; };
+		CB3D04212472DCBA0058F72A /* Usage.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D041C2472DCBA0058F72A /* Usage.md */; };
+		CB3D04222472DCBA0058F72A /* Why use SwiftConnect.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3D041D2472DCBA0058F72A /* Why use SwiftConnect.md */; };
+		CB3D04582472DD650058F72A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04532472DD650058F72A /* Todo.swift */; };
+		CB3D04592472DD650058F72A /* TodoConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04542472DD650058F72A /* TodoConnector.swift */; };
+		CB3D045A2472DD650058F72A /* StringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04552472DD650058F72A /* StringTransformer.swift */; };
+		CB3D045B2472DD650058F72A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04562472DD650058F72A /* ViewController.swift */; };
+		CB3D045C2472DD650058F72A /* AdvancedTodoConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D04572472DD650058F72A /* AdvancedTodoConnector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +39,11 @@
 /* Begin PBXFileReference section */
 		0264CE41B6CEBE1A91233239 /* Pods-SwiftConnect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConnect_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftConnect_Example/Pods-SwiftConnect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		17F701ACDC41D63D1159CB70 /* Pods-SwiftConnect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConnect_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftConnect_Tests/Pods-SwiftConnect_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1F4C6F8C56F63DF632DA45E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F4C6F8C56F63DF632DA45E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		53443616E1580E7498AF92F0 /* Pods-SwiftConnect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConnect_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftConnect_Tests/Pods-SwiftConnect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* SwiftConnect_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConnect_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* SwiftConnect Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftConnect Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,10 +51,20 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C6CEF7080604B51A73E54A3 /* Pods_SwiftConnect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftConnect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3D04192472DCBA0058F72A /* Debugging.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Debugging.md; sourceTree = "<group>"; };
+		CB3D041A2472DCBA0058F72A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB3D041B2472DCBA0058F72A /* Transformers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Transformers.md; sourceTree = "<group>"; };
+		CB3D041C2472DCBA0058F72A /* Usage.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Usage.md; sourceTree = "<group>"; };
+		CB3D041D2472DCBA0058F72A /* Why use SwiftConnect.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Why use SwiftConnect.md"; sourceTree = "<group>"; };
+		CB3D04532472DD650058F72A /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		CB3D04542472DD650058F72A /* TodoConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoConnector.swift; sourceTree = "<group>"; };
+		CB3D04552472DD650058F72A /* StringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTransformer.swift; sourceTree = "<group>"; };
+		CB3D04562472DD650058F72A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Old/SwiftConnect/Example/SwiftConnect/ViewController.swift; sourceTree = "<group>"; };
+		CB3D04572472DD650058F72A /* AdvancedTodoConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedTodoConnector.swift; sourceTree = "<group>"; };
 		DA6B794CDCED8239863A7781 /* Pods_SwiftConnect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftConnect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1E34858DBCB903576CB3EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE1E34858DBCB903576CB3EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E7A1A33C41D54C01104D6524 /* Pods-SwiftConnect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConnect_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftConnect_Example/Pods-SwiftConnect_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F77DA9499C01F2250AE31D4C /* SwiftConnect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftConnect.podspec; path = ../SwiftConnect.podspec; sourceTree = "<group>"; };
+		F77DA9499C01F2250AE31D4C /* SwiftConnect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftConnect.podspec; path = ../SwiftConnect.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +95,6 @@
 				53443616E1580E7498AF92F0 /* Pods-SwiftConnect_Tests.debug.xcconfig */,
 				17F701ACDC41D63D1159CB70 /* Pods-SwiftConnect_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,7 +113,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* SwiftConnect_Example.app */,
+				607FACD01AFB9204008FA782 /* SwiftConnect Example.app */,
 				607FACE51AFB9204008FA782 /* SwiftConnect_Tests.xctest */,
 			);
 			name = Products;
@@ -106,7 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				CB3D04572472DD650058F72A /* AdvancedTodoConnector.swift */,
+				CB3D04552472DD650058F72A /* StringTransformer.swift */,
+				CB3D04532472DD650058F72A /* Todo.swift */,
+				CB3D04542472DD650058F72A /* TodoConnector.swift */,
+				CB3D04562472DD650058F72A /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -146,6 +167,11 @@
 			children = (
 				F77DA9499C01F2250AE31D4C /* SwiftConnect.podspec */,
 				1F4C6F8C56F63DF632DA45E5 /* README.md */,
+				CB3D04192472DCBA0058F72A /* Debugging.md */,
+				CB3D041A2472DCBA0058F72A /* README.md */,
+				CB3D041B2472DCBA0058F72A /* Transformers.md */,
+				CB3D041C2472DCBA0058F72A /* Usage.md */,
+				CB3D041D2472DCBA0058F72A /* Why use SwiftConnect.md */,
 				DE1E34858DBCB903576CB3EB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -179,7 +205,7 @@
 			);
 			name = SwiftConnect_Example;
 			productName = SwiftConnect;
-			productReference = 607FACD01AFB9204008FA782 /* SwiftConnect_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* SwiftConnect Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* SwiftConnect_Tests */ = {
@@ -208,23 +234,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftConnect" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -248,7 +274,12 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				CB3D04222472DCBA0058F72A /* Why use SwiftConnect.md in Resources */,
+				CB3D041F2472DCBA0058F72A /* README.md in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				CB3D04202472DCBA0058F72A /* Transformers.md in Resources */,
+				CB3D041E2472DCBA0058F72A /* Debugging.md in Resources */,
+				CB3D04212472DCBA0058F72A /* Usage.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +300,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftConnect_Example/Pods-SwiftConnect_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftConnect/SwiftConnect.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftConnect.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +364,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				CB3D045B2472DD650058F72A /* ViewController.swift in Sources */,
+				CB3D045C2472DD650058F72A /* AdvancedTodoConnector.swift in Sources */,
+				CB3D04582472DD650058F72A /* Todo.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CB3D04592472DD650058F72A /* TodoConnector.swift in Sources */,
+				CB3D045A2472DD650058F72A /* StringTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,12 +424,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -419,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -431,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,12 +480,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -465,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -481,10 +524,10 @@
 				INFOPLIST_FILE = SwiftConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftconnect.example;
+				PRODUCT_NAME = "SwiftConnect Example";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -496,10 +539,10 @@
 				INFOPLIST_FILE = SwiftConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftconnect.example;
+				PRODUCT_NAME = "SwiftConnect Example";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,7 +563,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftConnect_Example.app/SwiftConnect_Example";
 			};
 			name = Debug;
@@ -538,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftConnect_Example.app/SwiftConnect_Example";
 			};
 			name = Release;
