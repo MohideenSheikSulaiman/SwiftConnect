@@ -10,14 +10,14 @@ SwiftConnect is a lightweight network abstraction layer, built on top of Alamofi
 
 ## Table of contents
 
-- [Why should I use SwiftConnect and not any other abstractio layer?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Why%20use%20SwiftConnect.md)
+- [Why should I use SwiftConnect and not any other abstraction layer?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Why%20use%20SwiftConnect.md)
 - [Transformers](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md)
     - [Codable Transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Codable-Transformer)
     - [Dictionary Transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Dictionary-Transformer)
     - [Void Transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Void-Transformer)
     - [Creating your own transformer](https://github.com/tareksabry1337/SwiftConnect/blob/master/Transformers.md#Creating-your-own-transformer)
 - [Usage](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md)
-    - [How to use connect?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#How-to-use-Connect)
+    - [How to use SwiftConnect?](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#How-to-use-SwiftConnect)
     - [Connect](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#Connect)
     - [Connect Middleware](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#ConnectMiddleware)
     - [Error Handler](https://github.com/tareksabry1337/SwiftConnect/blob/master/Usage.md#ErrorHandler)

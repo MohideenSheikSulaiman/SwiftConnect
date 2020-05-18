@@ -2,7 +2,7 @@
 
 ### Debugging Network Requests
 
-Debugging network requests can be a real bane and nightmare, the famous phrase that we always hear "It works on Postman" its your own fault but Connect makes debugging network requests really easy.
+Debugging network requests can be a real bane and nightmare, the famous phrase that we always hear "It works on Postman" its your own fault but SwiftConnect makes debugging network requests really easy.
 First of all any request that goes out of your device will be logged to the console automatically and can be seen in this format
 
 ```bash
@@ -17,7 +17,7 @@ $ curl -v \
 ```
 This makes it really easy to find out what's wrong with your request at glance, no more stopping at break points to find out what's wrong with the request or if there's an incorrect parameter name being sent.
 
-Further more if you want to debug the response Connect provides a parameter called "debugResponse" in the following methods
+Further more if you want to debug the response SwiftConnect provides a parameter called "debugResponse" in the following methods
 
 ```swift
 public func request(_ request: Connector, debugResponse: Bool = false) -> Future<Data>

@@ -37,7 +37,7 @@ SwiftConnect is a lightweight network abstraction layer, built on top of Alamofi
 
 ## Installation
 
-Connect is available through [CocoaPods](https://cocoapods.org). To install
+SwiftConnect is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -62,7 +62,7 @@ Please, don't hesitate to [file an issue](https://github.com/tareksabry1337/Swif
 - [ ] PropertyWrappers version (Inspired by Retrofit)
 
 ## Dependncies
-Connect depends mainly on two things
+SwiftConnect depends mainly on two things
 
 The awesome Future/Promises built by  [John Sundell][Future/Promises]<br>
 Alamofire [Alamofire][Alamofire]
@@ -74,4 +74,4 @@ Everything else was built from scratch natively and using Swift's Modern APIs
 
 ## License
 
-Connect is available under the MIT license. See the LICENSE file for more info.
+SwiftConnect is available under the MIT license. See the LICENSE file for more info.
