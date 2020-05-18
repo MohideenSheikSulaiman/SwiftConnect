@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftConnect_Example' do
+  pod 'SwiftConnect', :path => '../'
+
+  target 'SwiftConnect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
